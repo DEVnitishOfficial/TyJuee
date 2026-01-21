@@ -1,9 +1,9 @@
-import Image from "next/image";
+import NewHomePage from "@/components/new-home";
 
 export default function Home() {
   return (
     <div>
-     <h1>Hi i am nextjs</h1>
+    <NewHomePage />
     </div>
   );
 }
